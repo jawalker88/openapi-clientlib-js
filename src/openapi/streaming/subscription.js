@@ -41,7 +41,6 @@ const LOG_AREA = 'Subscription';
 function subscribe() {
 
     // capture the reference id so we can tell in the response whether it is the latest call
-    // was using createGUID to create the reference id, but the old library just does this, which is simpler
     const referenceId = String(referenceIdCounter++);
     this.referenceId = referenceId;
 
