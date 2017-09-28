@@ -1,3 +1,8 @@
+#### v2.0.0
+
++ Breaking Change - TransportBatch no longer has an auth argument. It requires that either individual calls have auth headers or that the underlying transport is authenticated
++ Much smaller batch requests
+
 #### v1.6.0
 
 + No longer send /active as part of the subscribe url
